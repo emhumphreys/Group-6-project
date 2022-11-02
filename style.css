@@ -17,6 +17,16 @@
 
 }
 
+@font-face{font-family:overlock;font-style:normal;font-weight:400;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-Regular.woff) format('woff')}@font-face{font-family:overlock;font-style:normal;font-weight:400;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-Italic.woff) format('woff')}@font-face{font-family:overlock;font-style:normal;font-weight:700;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-Bold.woff) format('woff')}@font-face{font-family:overlock;font-style:normal;font-weight:700;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-BoldItalic.woff) format('woff')}@font-face{font-family:overlock;font-style:normal;font-weight:900;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-Black.woff) format('woff')}@font-face{font-family:overlock;font-style:normal;font-weight:900;src:local('Overlock'),url(https://fonts.cdnfonts.com/s/15784/Overlock-BlackItalic.woff) format('woff')}
+
+@font-face {
+  font-family:"overlock";
+  src: local("overlock"),
+       url("http://fonts.cdnfonts.com/css/overlock") format("opentype") tech(color-COLRv1),
+       url("trickster-outline.otf") format("opentype"),
+       url("trickster-outline.woff") format("woff");
+}
+
 
 body{
   background-color: blue !important;
